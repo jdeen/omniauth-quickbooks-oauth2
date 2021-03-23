@@ -1,22 +1,21 @@
-# [omniauth-quickbooks-oauth2](https://rubygems.org/gems/omniauth-quickbooks-oauth2)
+# omniauth-quickbooks-oauth2
 
-This gem provides an Omniauth strategy to connect with Quickbooks (via Intuit) using OAuth2.
+[OmniAuth](https://github.com/omniauth/omniauth) strategy for [Intuit QuickBooks](https://quickbooks.intuit.com/).
 
+**Note**: This is a fork of the [original](https://github.com/abeland/omniauth-quickbooks-oauth2) OmniAuth QuickBook oAuth2 strategy. The has
+not been updated for a while. This fork unifies somme PRs made against the original repository and also some of my own updates.
 ## Installation
 
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'omniauth-quickbooks-oauth2'
+# Gemfile
+gem 'omniauth-quickbooks-oauth2', git: 'https://github.com/jdeen/omniauth-quickbooks-oauth2.git'
 ```
 
-And then execute:
+And then run the command:
 
-    $ bundle
-
-Or install it yourself as:
-
-    $ gem install omniauth-quickbooks-oauth2
+    $ bundle install
 
 ## Usage
 
@@ -44,7 +43,7 @@ end
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/abeland/omniauth-quickbooks-oauth2.
+Bug reports and pull requests are welcome on GitHub at https://github.com/jdeen/omniauth-quickbooks-oauth2.
 
 ## License
 
