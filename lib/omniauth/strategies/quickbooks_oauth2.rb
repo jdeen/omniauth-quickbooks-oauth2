@@ -3,7 +3,7 @@ require 'omniauth-oauth2'
 module OmniAuth
   module Strategies
     class QuickbooksOauth2 < OmniAuth::Strategies::OAuth2
-      option :name, :quickbooks_oauth2
+      option :name, :quickbooks
 
       option(
         :client_options,
